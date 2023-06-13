@@ -84,7 +84,7 @@ const Cart = () => {
                 <td class="p-2">
                   <img
                     className="w-24 h-16"
-                    src={`http://localhost:4000/${item_Image}`}
+                    src={`https://restaurant-backend-ij3t.onrender.com/${item_Image}`}
                     alt=""
                   />
                 </td>

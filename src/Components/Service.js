@@ -7,7 +7,10 @@ const Service = ({ product }) => {
     <div className="card card-compact w-96 bg-[#101418] text-white flex items-center">
       <div class="hover01 column">
         <figure>
-          <img className="h-80" src={`http://localhost:4000/${item_Image}`} />
+          <img
+            className="h-80"
+            src={`https://restaurant-backend-ij3t.onrender.com/${item_Image}`}
+          />
         </figure>
       </div>
       <div className="card-body">

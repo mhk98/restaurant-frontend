@@ -97,7 +97,9 @@ const Home = ({ product, searchValue }) => {
         <div className="card card-compact bg-[#101418] text-white flex items-center">
           <div class="hover01 column">
             <figure>
-              <img src={`http://localhost:4000/${product.item_Image}`} />
+              <img
+                src={`https://restaurant-backend-ij3t.onrender.com/${product.item_Image}`}
+              />
             </figure>
           </div>
           <div className="card-body">
@@ -120,7 +122,9 @@ const Home = ({ product, searchValue }) => {
         <div className="card card-compact bg-[#101418] text-white flex items-center">
           <div class="hover01 column">
             <figure>
-              <img src={`http://localhost:4000/${searchValue.item_Image}`} />
+              <img
+                src={`https://restaurant-backend-ij3t.onrender.com/${searchValue.item_Image}`}
+              />
             </figure>
           </div>
           <div className="card-body">
